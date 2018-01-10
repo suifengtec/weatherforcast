@@ -14,7 +14,7 @@
 
 ```
 
-git clone http://g.com/PHP/weather
+git clone https://github.com/suifengtec/weatherforcast
 
 ```
 
