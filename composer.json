@@ -1,0 +1,20 @@
+{
+  "name": "suifengtec/weather-forcast",
+  "description": "weather-forcast for Chinese",
+  "keywords": ["ai", "weather-forcast"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "suifengtec",
+      "email": "suifengtec@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+      "psr/container": "^1.0"
+  },
+  "autoload": {
+   "psr-4": { "WeatherForcast\\": "src/" },
+    "files": ["src/functions.php"]
+  }
+}
