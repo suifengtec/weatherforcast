@@ -16,6 +16,5 @@
   "autoload": {
    "psr-4": { "WeatherForcast\\": "src/" },
     "files": ["src/functions.php"]
-  },
-    "minimum-stability": "dev"
+  }
 }
