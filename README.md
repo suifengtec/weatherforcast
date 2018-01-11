@@ -39,11 +39,13 @@ sudo apt  install sox libsox-fmt-all
 需要有支持命令行播放的播放器,虽然可以用 start 命令,但是为了让这篇文章更加丰满,我就加点儿料吧,以下两种播放器方案,任选其一即可:
 
 ### Go 语言的播放器
+
 命令行执行
 ```
 go get github.com/hajimehoshi/go-mp3
 go get github.com/hajimehoshi/oto
 ```
+
 在项目根目录执行:
 ```
 
@@ -54,6 +56,7 @@ playmp3go classic.mp3
 能听到音乐就说明命令行播放器编译成功.
 
 ### C语言播放器
+
 确保 gcc 可用, 在项目根目录执行:
 ```
 gcc playmp3c.c -lwinmm -o playmp3c.exe
